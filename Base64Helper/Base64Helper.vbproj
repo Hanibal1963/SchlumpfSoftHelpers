@@ -12,7 +12,7 @@
     <ProjectTypeGuids>{82b43b9b-a64c-4715-b499-d71e9ca2bd60};{F184B08F-C81C-45f6-A57F-5ABD9991F28F}</ProjectTypeGuids>
     <ProjectGuid>{D0138E9A-0255-4E61-A01A-8D5ACA94720D}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>Base64Helper</RootNamespace>
+    <RootNamespace>SchlumpfSoft</RootNamespace>
     <AssemblyName>Base64Helper</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>

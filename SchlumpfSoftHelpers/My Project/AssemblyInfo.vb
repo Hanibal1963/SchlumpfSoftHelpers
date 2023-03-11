@@ -11,7 +11,7 @@ Imports Microsoft.VisualBasic
 <Assembly: AssemblyConfiguration("")>
 <Assembly: AssemblyCompany("")>
 <Assembly: AssemblyProduct("SchlumpfSoftHelpers")>
-<Assembly: AssemblyCopyright("")>
+<Assembly: AssemblyCopyright("Copyright © Andreas Sauer 2023")>
 <Assembly: AssemblyTrademark("")>
 <Assembly: AssemblyCulture("")>
 
