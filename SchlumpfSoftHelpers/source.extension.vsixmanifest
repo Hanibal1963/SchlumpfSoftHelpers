@@ -4,6 +4,7 @@
         <Identity Id="SchlumpfSoft_Helpers.01cdd339-9cdb-43aa-835e-2ff6a1c8f5f8" Version="1.0.2023" Language="de-DE" Publisher="Andreas Sauer" />
         <DisplayName>SchlumpfSoftHelpers</DisplayName>
         <Description xml:space="preserve">Eine Sammlung verschiedener Hilfsklassen</Description>
+        <MoreInfo>https://github.com/Hanibal1963/SchlumpfSoftHelpers</MoreInfo>
         <License>LICENSE.txt</License>
         <Icon>PapaSchlumpf.ico</Icon>
         <Tags>Klassenvorlagen </Tags>
