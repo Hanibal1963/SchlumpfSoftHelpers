@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{288355CB-1A19-4E3D-A930-6164DCB9F904}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>DemoApp.My.MyApplication</StartupObject>
+    <RootNamespace>DemoApp</RootNamespace>
+    <AssemblyName>DemoApp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <AssemblyVersion>1.2023.3.29</AssemblyVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>DemoApp.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>DemoApp.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>On</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\Base64Helper\Base64Helper.vb">
+      <Link>Base64Helper.vb</Link>
+    </Compile>
+    <Compile Include="..\IconHelper\IconHelper.vb">
+      <Link>IconHelper.vb</Link>
+    </Compile>
+    <Compile Include="..\WmiHelper\WmiHelper.vb">
+      <Link>WmiHelper.vb</Link>
+    </Compile>
+    <Compile Include="Base64HelperDemoControls\FileConvert.designer.vb">
+      <DependentUpon>FileConvert.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Base64HelperDemoControls\FileConvert.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.vb">
+      <DependentUpon>FormMain.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base64HelperDemoControls\ImageConvert.designer.vb">
+      <DependentUpon>ImageConvert.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Base64HelperDemoControls\ImageConvert.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IconHelperDemoControls\AllFileIcons.designer.vb">
+      <DependentUpon>AllFileIcons.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IconHelperDemoControls\AllFileIcons.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IconHelperDemoControls\FileExtension.designer.vb">
+      <DependentUpon>FileExtension.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IconHelperDemoControls\FileExtension.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IconHelperDemoControls\FolderIcon.designer.vb">
+      <DependentUpon>FolderIcon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IconHelperDemoControls\FolderIcon.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Base64HelperDemoControls\StringConvert.designer.vb">
+      <DependentUpon>StringConvert.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Base64HelperDemoControls\StringConvert.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WmiHelperDemoControls\DriveInfo.designer.vb">
+      <DependentUpon>DriveInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WmiHelperDemoControls\DriveInfo.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WmiHelperDemoControls\MainboardInfo.designer.vb">
+      <DependentUpon>MainboardInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WmiHelperDemoControls\MainboardInfo.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WmiHelperDemoControls\OSInfo.designer.vb">
+      <DependentUpon>OSInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WmiHelperDemoControls\OSInfo.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Base64HelperDemoControls\FileConvert.resx">
+      <DependentUpon>FileConvert.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base64HelperDemoControls\ImageConvert.resx">
+      <DependentUpon>ImageConvert.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IconHelperDemoControls\AllFileIcons.resx">
+      <DependentUpon>AllFileIcons.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IconHelperDemoControls\FileExtension.resx">
+      <DependentUpon>FileExtension.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IconHelperDemoControls\FolderIcon.resx">
+      <DependentUpon>FolderIcon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base64HelperDemoControls\StringConvert.resx">
+      <DependentUpon>StringConvert.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WmiHelperDemoControls\DriveInfo.resx">
+      <DependentUpon>DriveInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WmiHelperDemoControls\MainboardInfo.resx">
+      <DependentUpon>MainboardInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WmiHelperDemoControls\OSInfo.resx">
+      <DependentUpon>OSInfo.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Web.WebView2">
+      <Version>1.0.1587.40</Version>
+    </PackageReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

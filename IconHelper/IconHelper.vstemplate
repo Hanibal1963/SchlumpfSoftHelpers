@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>IconHelper</Name>
+    <Description>Eine Klasse um Symbole aus Ordnern, Dateierweiterungen oder Dateien zu Extrahieren.</Description>
+    <Icon>IconHelper.ico</Icon>
+    <TemplateID>cf651d54-4878-4b35-a5d9-88e2a40b8cee</TemplateID>
+    <SortOrder>1000</SortOrder>
+    <DefaultName>IconHelper.vb</DefaultName>
+    <ProjectType>VisualBasic</ProjectType>
+    <RequiredFrameworkVersion>4.7.2</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+  </TemplateData>
+  <TemplateContent>
+    <References>
+      <Reference>
+        <Assembly>System</Assembly>
+      </Reference>
+	  <Reference>
+		<Assembly>System.Drawing</Assembly>
+	  </Reference>
+    </References>
+    <ProjectItem ReplaceParameters="false">IconHelper.vb</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

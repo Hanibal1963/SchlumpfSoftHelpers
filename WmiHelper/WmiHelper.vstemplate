@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>WmiHelper</Name>
+    <Description>Mit dieser Klasse ist es möglich verschiedene Informationen über das System zu erlangen.</Description>
+    <Icon>WmiHelper.ico</Icon>
+    <TemplateID>146589fe-e937-4405-a93e-21bcd535ddd0</TemplateID>
+    <SortOrder>1000</SortOrder>
+    <DefaultName>WmiHelper.vb</DefaultName>
+    <ProjectType>VisualBasic</ProjectType>
+    <RequiredFrameworkVersion>4.7.2</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+  </TemplateData>
+  <TemplateContent>
+    <References>
+      <Reference>
+        <Assembly>System</Assembly>
+      </Reference>
+	  <Reference>
+		<Assembly>System.Management</Assembly>
+	  </Reference>
+    </References>
+    <ProjectItem ReplaceParameters="false">WmiHelper.vb</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
