@@ -55,6 +55,10 @@
 
 Namespace SchlumpfSoft
 
+
+	''' <summary>
+	''' Eine Klasse zum Codieren und Decodieren von Text, Bildern und beliebigen Dateien In Base64-Code und zurück.
+	''' </summary>
 	Public Class Base64Helper
 
 
@@ -66,6 +70,7 @@ Namespace SchlumpfSoft
 		Private Const ISNULLOREMPTYEXEPTIONMESSAGE = "Das Argument ""{0}"" darf nicht leer oder NULL sein."
 
 #End Region
+
 
 #Region "Public Methods"
 
@@ -293,6 +298,8 @@ Namespace SchlumpfSoft
 
 #End Region
 
+
 	End Class
+
 
 End Namespace

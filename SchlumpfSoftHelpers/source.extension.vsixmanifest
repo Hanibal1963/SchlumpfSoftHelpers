@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="SchlumpfSoft_Helpers.01cdd339-9cdb-43aa-835e-2ff6a1c8f5f8" Version="1.0.2023" Language="de-DE" Publisher="Andreas Sauer" />
+        <Identity Id="SchlumpfSoftHelpers.6465b4aa-2674-4ade-98cb-38d6165dd152" Version="1.0.2023" Language="de-DE" Publisher="Andreas Sauer" />
         <DisplayName>SchlumpfSoftHelpers</DisplayName>
-        <Description xml:space="preserve">Eine Sammlung verschiedener Hilfsklassen</Description>
-        <MoreInfo>https://github.com/Hanibal1963/SchlumpfSoftHelpers</MoreInfo>
+        <Description xml:space="preserve">Eine Sammlung verschiederner Klassenvorlagen</Description>
         <License>LICENSE.txt</License>
         <Icon>PapaSchlumpf.ico</Icon>
-        <Tags>Klassenvorlagen </Tags>
+        <Tags>Vorlagen VisualBasic Klassen</Tags>
         <Preview>true</Preview>
     </Metadata>
     <Installation>
@@ -24,12 +23,12 @@
     <Dependencies>
         <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
     </Dependencies>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="File" Path="ItemTemplates" d:TargetPath="ItemTemplates\Base64Helper.zip" />
+        <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="File" Path="ItemTemplates" d:TargetPath="ItemTemplates\IconHelper.zip" />
+        <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="File" Path="ItemTemplates" d:TargetPath="ItemTemplates\WmiHelper.zip" />
+    </Assets>
     <Prerequisites>
         <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[17.0,18.0)" DisplayName="Visual Studio core editor" />
     </Prerequisites>
-    <Assets>
-        <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="Base64Helper" d:TargetPath="|Base64Helper;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
-        <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="IconHelper" d:TargetPath="|IconHelper;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
-        <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="WmiHelper" d:TargetPath="|WmiHelper;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
-    </Assets>
 </PackageManifest>
