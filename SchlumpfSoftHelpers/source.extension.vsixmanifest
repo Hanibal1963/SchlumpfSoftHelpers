@@ -4,6 +4,7 @@
         <Identity Id="SchlumpfSoftHelpers.6465b4aa-2674-4ade-98cb-38d6165dd152" Version="1.0.2023" Language="de-DE" Publisher="Andreas Sauer" />
         <DisplayName>SchlumpfSoftHelpers</DisplayName>
         <Description xml:space="preserve">Eine Sammlung verschiederner Klassenvorlagen</Description>
+        <MoreInfo>https://github.com/Hanibal1963/SchlumpfSoftHelpers</MoreInfo>
         <License>LICENSE.txt</License>
         <Icon>PapaSchlumpf.ico</Icon>
         <Tags>Vorlagen VisualBasic Klassen</Tags>
