@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
-    <Name>Base64Helper</Name>
+    <Name>Bas64Helper</Name>
     <Description>Eine Klasse zum Codieren und Decodieren von Text, Bildern und beliebigen Dateien in Base64-Code und zurück.</Description>
     <Icon>Base64Helper.ico</Icon>
-    <TemplateID>cad1f793-c50f-44cf-9664-29fa06808c7e</TemplateID>
+    <TemplateID>30295c2e-15c7-4b49-a352-9e4b5f6806db</TemplateID>
     <SortOrder>1000</SortOrder>
     <DefaultName>Base64Helper.vb</DefaultName>
     <ProjectType>VisualBasic</ProjectType>
@@ -19,7 +19,7 @@
 	  <Reference>
 		<Assembly>System.Drawing</Assembly>
 	  </Reference>
-    </References>
+	</References>
     <ProjectItem ReplaceParameters="false">Base64Helper.vb</ProjectItem>
   </TemplateContent>
 </VSTemplate>

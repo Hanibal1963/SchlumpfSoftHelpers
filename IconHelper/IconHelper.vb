@@ -47,6 +47,10 @@
 '  https://docs.microsoft.com/de-de/windows/win32/api/shellapi/nf-shellapi-shgetfileinfoa?redirectedfrom=MSDN
 '- Environment.SpecialFolder Enumeration
 '  https://docs.microsoft.com/de-de/dotnet/api/system.environment.specialfolder?view=netframework-4.6
+'- Extract icons from EXE or DLL files
+'  https://www.codeproject.com/Articles/26824/Extract-icons-from-EXE-or-DLL-files
+'- Symbole
+'  https://learn.microsoft.com/en-us/previous-versions/ms997538(v=msdn.10)?redirectedfrom=MSDN
 '
 '****************************************************************************************************************
 

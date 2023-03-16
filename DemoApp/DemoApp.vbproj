@@ -14,7 +14,7 @@
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
-    <AssemblyVersion>1.2023.3.29</AssemblyVersion>
+    <AssemblyVersion>1.2023.3.33</AssemblyVersion>
     <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -76,7 +76,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\Base64Helper\Base64Helper.vb">
+    <Compile Include="..\Bas64Helper\Base64Helper.vb">
       <Link>Base64Helper.vb</Link>
     </Compile>
     <Compile Include="..\IconHelper\IconHelper.vb">
