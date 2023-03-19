@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
-    <Name>Bas64Helper</Name>
+    <Name>Base64Helper</Name>
     <Description>Eine Klasse zum Codieren und Decodieren von Text, Bildern und beliebigen Dateien in Base64-Code und zurück.</Description>
     <Icon>Base64Helper.ico</Icon>
     <TemplateID>30295c2e-15c7-4b49-a352-9e4b5f6806db</TemplateID>

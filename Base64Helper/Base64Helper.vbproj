@@ -8,6 +8,9 @@
   <PropertyGroup>
     <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
   </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>Always</RunPostBuildEvent>
+  </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -16,7 +19,7 @@
     <ProjectGuid>{C8F27F2A-EE9D-4A17-A8F7-A1DB422061FF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>SchlumpfSoft</RootNamespace>
-    <AssemblyName>Bas64Helper</AssemblyName>
+    <AssemblyName>Base64Helper</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <OptionExplicit>On</OptionExplicit>
@@ -74,16 +77,17 @@
     <Compile Include="My Project\AssemblyInfo.vb" />
   </ItemGroup>
   <ItemGroup>
-    <VSTemplate Include="Bas64Helper.vstemplate" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Base64Helper.ico" />
+    <Content Include="Base64Helper.vstemplate" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Base64Helper.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <Import Project="$(VSToolsPath)\VSSDK\Microsoft.VsSDK.targets" Condition="'$(VSToolsPath)' != ''" />
+  <PropertyGroup>
+    <PostBuildEvent>copy "$(TargetDir)ItemTemplates\VisualBasic\1033\*.zip" "$(SolutionDir)SchlumpfSoftHelpers\ItemTemplates"</PostBuildEvent>
+  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

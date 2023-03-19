@@ -8,10 +8,10 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("Bas64Helper")>
+<Assembly: AssemblyTitle("Base64Helper")>
 <Assembly: AssemblyDescription("Eine Klasse zum Codieren und Decodieren von Text, Bildern und beliebigen Dateien in Base64-Code und zurück.")>
 <Assembly: AssemblyCompany("Andreas Sauer")>
-<Assembly: AssemblyProduct("Bas64Helper")>
+<Assembly: AssemblyProduct("Base64Helper")>
 <Assembly: AssemblyCopyright("Copyright © Andreas Sauer 2023")>
 <Assembly: AssemblyTrademark("")>
 
@@ -31,7 +31,7 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("1.2023.3.2")>
-<Assembly: AssemblyFileVersion("1.2023.3.2")>
+<Assembly: AssemblyVersion("1.2023.3.1")>
+<Assembly: AssemblyFileVersion("1.2023.3.1")>
 
 <assembly: AssemblyInformationalVersion("0.2023.3.2")>
