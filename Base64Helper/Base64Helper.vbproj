@@ -3,20 +3,14 @@
   <PropertyGroup>
     <MinimumVisualStudioVersion>17.0</MinimumVisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
-    <AssemblyVersion>1.2023.3.2</AssemblyVersion>
-  </PropertyGroup>
-  <PropertyGroup>
-    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
-  </PropertyGroup>
-  <PropertyGroup>
-    <RunPostBuildEvent>Always</RunPostBuildEvent>
+    <AssemblyVersion>1.2023.3.7</AssemblyVersion>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectTypeGuids>{82b43b9b-a64c-4715-b499-d71e9ca2bd60};{F184B08F-C81C-45f6-A57F-5ABD9991F28F}</ProjectTypeGuids>
-    <ProjectGuid>{C8F27F2A-EE9D-4A17-A8F7-A1DB422061FF}</ProjectGuid>
+    <ProjectGuid>{9A7FAE10-0C9C-4D3A-AAA1-314A05D31F1B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>SchlumpfSoft</RootNamespace>
     <AssemblyName>Base64Helper</AssemblyName>
@@ -56,7 +50,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -73,20 +66,19 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Base64Helper.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Base64Helper.ico" />
-    <Content Include="Base64Helper.vstemplate" />
+    <None Include="Base64Helper.ico" />
+    <None Include="Base64Helper.md" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Base64Helper.md" />
+    <VSTemplate Include="Base64Helper.vstemplate" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <Import Project="$(VSToolsPath)\VSSDK\Microsoft.VsSDK.targets" Condition="'$(VSToolsPath)' != ''" />
   <PropertyGroup>
-    <PostBuildEvent>copy "$(TargetDir)ItemTemplates\VisualBasic\1033\*.zip" "$(SolutionDir)SchlumpfSoftHelpers\ItemTemplates"</PostBuildEvent>
+    <PostBuildEvent>copy "$(TargetDir)\ItemTemplates\VisualBasic\1033\*.zip" "$(SolutionDir)\SchlumpfSoftHelpers\ItemTemplates"</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

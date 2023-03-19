@@ -9,7 +9,7 @@ Imports System.Runtime.InteropServices
 ' Review the values of the assembly attributes
 
 <Assembly: AssemblyTitle("Base64Helper")>
-<Assembly: AssemblyDescription("Eine Klasse zum Codieren und Decodieren von Text, Bildern und beliebigen Dateien in Base64-Code und zurück.")>
+<Assembly: AssemblyDescription("")>
 <Assembly: AssemblyCompany("Andreas Sauer")>
 <Assembly: AssemblyProduct("Base64Helper")>
 <Assembly: AssemblyCopyright("Copyright © Andreas Sauer 2023")>
@@ -18,7 +18,7 @@ Imports System.Runtime.InteropServices
 <Assembly: ComVisible(False)>
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
-<Assembly: Guid("c8f27f2a-ee9d-4a17-a8f7-a1db422061ff")>
+<Assembly: Guid("9a7fae10-0c9c-4d3a-aaa1-314a05d31f1b")>
 
 ' Version information for an assembly consists of the following four values:
 '
@@ -31,7 +31,7 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("1.2023.3.1")>
-<Assembly: AssemblyFileVersion("1.2023.3.1")>
+<Assembly: AssemblyVersion("1.2023.3.7")>
+<Assembly: AssemblyFileVersion("1.2023.3.7")>
 
-<assembly: AssemblyInformationalVersion("0.2023.3.2")>
+<assembly: AssemblyInformationalVersion("0.2023.3.7")>
