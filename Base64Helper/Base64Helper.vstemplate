@@ -16,6 +16,9 @@
       <Reference>
         <Assembly>System</Assembly>
       </Reference>
+		<Reference>
+			<Assembly>System.Drawing</Assembly>
+		</Reference>
     </References>
     <ProjectItem ReplaceParameters="false">Base64Helper.vb</ProjectItem>
   </TemplateContent>
