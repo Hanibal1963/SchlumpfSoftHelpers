@@ -1,4 +1,4 @@
-## SchlumpfSoftHelpers
+# SchlumpfSoftHelpers
 
 Eine Sammlung verschiedener Klassenvorlagen
 
