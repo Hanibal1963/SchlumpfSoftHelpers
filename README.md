@@ -17,4 +17,4 @@ z.Zt. sind folgende Klassen enthalten:
 - [ ] SerializeHelper - Eine Klasse zum serialisieren von Objekten.
 - [ ] MailHelper - Eine Klasse zum versenden von Emails.
 - [ ] IniHelper -Eine Klasse zum bearbeiten von INI-Dateien.
-- [ ] CsvHelper - Eine Klasse zum bearbeiten von Csv-Dateien.
+- [ ] CsvHelper - Eine Klasse zum bearbeiten von CSV-Dateien.
